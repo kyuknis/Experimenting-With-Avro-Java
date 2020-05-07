@@ -1,0 +1,10 @@
+{
+  "namespace": "com.yuknis.experimentingwithavro.avro.definitions.schema",
+  "type": "record",
+  "name": "Person",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "favorite_number",  "type": ["int", "null"]},
+    {"name": "favorite_color", "type": ["string", "null"]}
+  ]
+}
